@@ -17,7 +17,7 @@ services:
       - 8082:8082/udp
       # - 8081:8081 Port for access key management API. Not necessary for running
   watchtower:
-    image: containrrr/watchtower
+    image: nickfedor/watchtower
     container_name: watchtower
     restart: unless-stopped
     volumes:
